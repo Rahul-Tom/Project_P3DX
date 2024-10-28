@@ -84,14 +84,7 @@ class ButtonDefinition(Ui_MainWindow):
         self.startDelayThread()
         self.pushButton_STOP_Nav.show()
         self.pushButton_Refresh.show()
-    #     cmd = '''
-    #     if ! (docker ps --format "{{.Names}}" | grep -q 'noetic_rosaria' && \
-    #          docker ps --format "{{.Names}}" | grep -q 'foxy_bridge_container' && \
-    #          docker ps --format "{{.Names}}" | grep -q 'kinetic_sick'); then
-    #       cd $(find / -type d -name "p3dx_docker" 2>/dev/null | head -n 1) && docker-compose up --build
-    #    fi
-    #    '''
-    #    self.execCommand(cmd)
+    
 
      # Function to run the delay using threading
     def startDelayThread(self):
@@ -104,7 +97,7 @@ class ButtonDefinition(Ui_MainWindow):
     
     #Function for RQt
     def pushButton_RQt_action(self):
-        cmd="source /opt/ros/$ROS_DISTRO/setup.bash && rqt"
+        cmd="source /opt/ros/$ROS_DISTRO/setup.bash && ros2 run rqt_gui rqt_gui"
         self.execCommand(cmd)
         self.label.setText(f"RQt is running, introspect ROS2 node")    
      #Function for Rviz2
@@ -146,7 +139,7 @@ class ButtonDefinition(Ui_MainWindow):
      #Function for autonomous nav, launch robot description and laser scan matching.
     def pushButton_Autonomous_action(self):
         self.horizontalLayoutWidget_2.show()
-        cmd0 = "ros2 launch p3dx_navigation p3dx_description_ros2.launch.py"
+        cmd0 = "source p3dx_ws/install/setup.bash && ros2 launch p3dx_navigation p3dx_description_ros2.launch.py"
         cmd1 = "sleep 1 && ros2 launch ros2_laser_scan_matcher start.matcher.launch.py"
         self.execCommand(cmd0)
         self.execCommand(cmd1)

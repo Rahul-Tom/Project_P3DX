@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y \
     bash-completion \
     build-essential \
     sudo \
+    gnome-terminal \
+    dbus-x11 \
+    at-spi2-core \
+    jstest-gtk \
     ros-${ROS_DISTRO}-navigation2 \
     ros-${ROS_DISTRO}-nav2-bringup\
     ros-${ROS_DISTRO}-robot-localization\
@@ -30,31 +34,9 @@ ADD config/99_aptget /etc/sudoers.d/99_aptget
 RUN chmod 0440 /etc/sudoers.d/99_aptget && chown root:root /etc/sudoers.d/99_aptget
 # Create the workspace
 RUN /bin/bash -c "source /opt/ros/humble/setup.bash"
-RUN mkdir -p ${HOME}/humble_ws/src
-# Choose to run as user
-# ENV USER ros
-# USER ros 
-# # Change HOME environment variable
-# ENV HOME /home/${USER} 
-# WORKDIR /humble
-# RUN mkdir humble
-# WORKDIR ${HOME}/humble_ws/bin/bash -c "source source /opt/ros/${ROS_DISTRO}/setup.bash; colcon build --symlink-install"
-# WORKDIR ${HOME}/humble_ws 
-# RUN /bin/bash -c "source source /opt/ros/humble/setup.bash;colcon build --symlink-install"
-# WORKDIR ${HOME}/humble_ws/src
-# RUN /bin/bash -c "git clone https://github.com/ros2/teleop_twist_joy.git"
-# WORKDIR ${HOME}/humble_ws/src
-# RUN /bin/bash -c "git clone https://github.com/ruipaulorocha/p3dx_description_ros.git"
-# RUN /bin/bash -c "git clone https://github.com/Rahul-Tom/ros2_p3dx_ws.git"
+RUN mkdir -p ${HOME}/humble_ws/
+
 WORKDIR ${HOME}/humble_ws 
-RUN /bin/bash -c "source /opt/ros/humble/setup.bash;colcon build --symlink-install"
-
-# Initialize the catkin workspace
-# WORKDIR ${HOME}/humble_ws/src
-# WORKDIR ${HOME}/humble_ws/
-
-
-
 
 # Set up environment
 COPY config/update_bashrc /sbin/update_bashrc

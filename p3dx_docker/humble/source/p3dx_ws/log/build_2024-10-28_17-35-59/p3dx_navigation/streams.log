@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tom/humble_ws/p3dx_ws/src/p3dx_navigation -DCMAKE_INSTALL_PREFIX=/home/tom/humble_ws/p3dx_ws/install/p3dx_navigation
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.700s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.703s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.757s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.765s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.779s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.991s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.992s] -- Added test 'lint_cmake' to check CMake code style
+[0.994s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.001s] -- Added test 'xmllint' to check XML markup files
+[1.003s] -- Configuring done
+[1.009s] -- Generating done
+[1.010s] -- Build files have been written to: /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation
+[1.016s] Invoked command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tom/humble_ws/p3dx_ws/src/p3dx_navigation -DCMAKE_INSTALL_PREFIX=/home/tom/humble_ws/p3dx_ws/install/p3dx_navigation
+[1.018s] Invoking command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation -- -j12 -l12
+[1.068s] Invoked command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation -- -j12 -l12
+[1.109s] Invoking command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation
+[1.117s] -- Install configuration: ""
+[1.117s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/lib/p3dx_navigation
+[1.117s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch
+[1.117s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/start.matcher.launch.py
+[1.117s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/localization_launch.py
+[1.118s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/p3dx_description_ros2.launch copy.py
+[1.118s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/p3dx_description_ros2.launch.py
+[1.126s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/teleop_keyboard_launch.py
+[1.127s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/twist_mux_launch.py
+[1.127s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/joystick_launch.py
+[1.128s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/online_async_launch.py
+[1.128s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/navigation_launch.py
+[1.128s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config
+[1.128s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/twist_mux.yaml
+[1.128s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/nav2_params.yaml
+[1.129s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/mapper_params_online_async.yaml
+[1.129s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/nav2_params_forCollisionMonitor.yaml
+[1.129s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/ekf.yaml
+[1.130s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/collision_monitor_params.yaml
+[1.130s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/params.yaml
+[1.130s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/joystick.yaml
+[1.131s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz
+[1.131s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz/rviz2_launch_config.rviz
+[1.131s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz/nav2_default_view.rviz
+[1.132s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/package_run_dependencies/p3dx_navigation
+[1.132s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/parent_prefix_path/p3dx_navigation
+[1.132s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/ament_prefix_path.sh
+[1.132s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/ament_prefix_path.dsv
+[1.133s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/path.sh
+[1.133s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/path.dsv
+[1.133s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.bash
+[1.133s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.sh
+[1.133s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.zsh
+[1.134s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.dsv
+[1.134s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/package.dsv
+[1.134s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/packages/p3dx_navigation
+[1.134s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/cmake/p3dx_navigationConfig.cmake
+[1.134s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/cmake/p3dx_navigationConfig-version.cmake
+[1.135s] -- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/package.xml
+[1.137s] Invoked command in '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation

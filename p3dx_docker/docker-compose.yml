@@ -37,24 +37,28 @@ services:
     stdin_open: true
     command: tail -f /dev/null
 
-  # ros2_humble:
-  #   build:
-  #     context: ./humble
-  #     dockerfile: Dockerfile
-  #   container_name: ros2_humble_container
-  #   environment:
-  #     - DISPLAY=${DISPLAY} 
-  #   volumes:
-  #     - my_src_volume:/home/tom/humble_ws/src:rw
-  #     - /dev/bus/usb:/dev/bus/usb
-  #     - /tmp/.X11-unix:/tmp/.X11-unix
+  ros2_humble:
+    privileged: true
+    build:
+      context: ./humble
+      dockerfile: Dockerfile
+    container_name: ros2_humble_container
+    user: tom
+    environment:
+      - DISPLAY=${DISPLAY} 
+    volumes:
+      - my_src_volume:/home/tom/humble_ws/:rw
+      - /dev/bus/usb:/dev/bus/usb
+      - /tmp/.X11-unix:/tmp/.X11-unix
       
-  #   network_mode: host
-  #   ipc: host
-  #   tty: true
-  #   stdin_open: true
-  #   # command: colcon build
-  #   command: tail -f /dev/null
+    network_mode: host
+    devices: 
+      - /dev/input/js0
+    ipc: host
+    tty: true
+    stdin_open: true
+    # command: colcon build
+    command: ~/humble_ws/p3dx_gui/main_window_custom_class.py
 
   ros2_foxy_bridge:
     build:
@@ -71,10 +75,10 @@ services:
     stdin_open: true
     command: tail -f /dev/null
     
-# volumes:
-#   my_src_volume:
-#     driver: local  # Using local driver, by default
-#     driver_opts:
-#       type: none
-#       o: bind
-#       device: ${PWD}/humble/source  # Host machine's source directory    
+volumes:
+  my_src_volume:
+    driver: local  # Using local driver, by default
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/humble/source  # Host machine's source directory    
