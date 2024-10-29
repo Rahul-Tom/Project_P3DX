@@ -86,4 +86,5 @@ If you don't build the ros2 service consider adding the sourcing to the envionme
 ```sh
 echo "source/opt/jazzy/setup.bash">>~/.bashrc
 echo "source~/Project/p3dx_ws/install/setup.bash">>~/.bashrc
+
 ```
