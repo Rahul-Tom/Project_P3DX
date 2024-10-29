@@ -6,6 +6,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # find dependencies
+find_package(urdf REQUIRED)
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -15,6 +16,7 @@ find_package(rclpy REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+
 # Install Python modules
 install(DIRECTORY src/
   DESTINATION lib/${PROJECT_NAME}
@@ -22,7 +24,7 @@ install(DIRECTORY src/
 )
 
 install(
-  DIRECTORY launch config rviz
+  DIRECTORY launch config rviz urdf
   DESTINATION share/${PROJECT_NAME}
 )
 

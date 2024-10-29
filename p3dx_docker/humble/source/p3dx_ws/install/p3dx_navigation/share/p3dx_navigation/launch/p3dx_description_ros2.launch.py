@@ -71,20 +71,6 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
-
-    ##Laser scan Matcher odometry
-    odometry_node = Node(
-        package='ros2_laser_scan_matcher',
-        parameters=[{
-                'base_frame': 'base_link',
-                'odom_frame': 'odom_matcher',
-                'laser_frame': 'laser',
-                'publish_odom': 'laser_scan_matcher/odom',
-                'publish_tf': False
-            }],
-        executable='laser_scan_matcher',
-        name='odom_laser_scan_match_pub',
-    )
   
     return LaunchDescription([
         DeclareLaunchArgument(name='use_sim_time', default_value='True',
@@ -92,12 +78,10 @@ def generate_launch_description():
         DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
                                             description='Absolute path to rviz config file'),
                                                                                 
-        # arg_sim_time,
-        # arg_tf_prefix,
-        # get_prefix_fn,
-        # state_publisher,
+        arg_sim_time,
+        arg_tf_prefix,
+        get_prefix_fn,
+        state_publisher,
         robot_localization_node,
-        # odometry_node,
         rviz_node,
-        #joy_node
     ])

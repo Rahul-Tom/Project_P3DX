@@ -56,9 +56,10 @@ class ButtonDefinition(Ui_MainWindow):
 
     def button_hide(self):
         # Initially hide the horizontal layout widget
-        self.horizontalLayoutWidget.hide()
+        # self.horizontalLayoutWidget.hide()
         self.horizontalLayoutWidget_2.hide()
         self.horizontalLayoutWidget_4.hide()
+        # self.horizontalLayoutWidget_2.hide()
         self.lineEdit.hide()
         self.pushButton_STOP_Nav.hide()
         self.pushButton_StartStopRecord.hide()
@@ -68,7 +69,8 @@ class ButtonDefinition(Ui_MainWindow):
 
     ##executation method
     def execCommand(self, cmd: str):
-        cmd_base_head = "gnome-terminal -- bash -c '"
+        # cmd_base_head = "gnome-terminal -- bash -c '"
+        cmd_base_head = "xterm -e '"
         cmd_base_tail = "'&"
         cmd_full =   cmd_base_head + cmd + cmd_base_tail  
 
@@ -79,8 +81,10 @@ class ButtonDefinition(Ui_MainWindow):
     def pushButton_ConnectToRobot_action(self):
         cmd = f'cd $(find / -type d -name "p3dx_docker" 2>/dev/null | head -n 1) && docker-compose up --build'
         cmd1='ros2 lauch p3dx_navigation twist_mux_launch.py'
+        cmd2=f'docker exec foxy_bridge_container bash -c "source /opt/ros/noetic/setup.bash && rosparam load bridge.yaml && source /opt/ros/foxy/setup.bash && ros2 run ros1_bridge parameter_bridge"'
         self.execCommand(cmd)
         self.execCommand(cmd1)
+        self.execCommand(cmd2)
         self.startDelayThread()
         self.pushButton_STOP_Nav.show()
         self.pushButton_Refresh.show()

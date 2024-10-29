@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (p3dx_navigation) JobQueued: {'identifier': 'p3dx_navigation', 'dependencies': OrderedDict()}
+[0.001350] (p3dx_navigation) JobStarted: {'identifier': 'p3dx_navigation'}
+[0.021246] (p3dx_navigation) JobProgress: {'identifier': 'p3dx_navigation', 'progress': 'cmake'}
+[0.021825] (p3dx_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/tom/humble_ws/p3dx_ws/src/p3dx_navigation', '-DCMAKE_INSTALL_PREFIX=/home/tom/humble_ws/p3dx_ws/install/p3dx_navigation'], 'cwd': '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation', 'env': OrderedDict([('HOSTNAME', 'simon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom'), ('OLDPWD', '/home/tom/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099555] (-) TimerEvent: {}
+[0.200051] (-) TimerEvent: {}
+[0.232907] (p3dx_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300196] (-) TimerEvent: {}
+[0.380792] (p3dx_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.397617] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400297] (-) TimerEvent: {}
+[0.500669] (-) TimerEvent: {}
+[0.529236] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.539381] (p3dx_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.540049] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.540876] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.545959] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600852] (-) TimerEvent: {}
+[0.685136] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.695434] (p3dx_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.695880] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.696404] (p3dx_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700958] (-) TimerEvent: {}
+[0.709451] (p3dx_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801115] (-) TimerEvent: {}
+[0.901547] (-) TimerEvent: {}
+[0.935128] (p3dx_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001700] (-) TimerEvent: {}
+[1.096784] (p3dx_navigation) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.101147] (p3dx_navigation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101818] (-) TimerEvent: {}
+[1.187604] (p3dx_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.200217] (p3dx_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.201910] (-) TimerEvent: {}
+[1.219169] (p3dx_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.247325] (p3dx_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.280487] (p3dx_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302078] (-) TimerEvent: {}
+[1.389576] (p3dx_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402219] (-) TimerEvent: {}
+[1.502673] (-) TimerEvent: {}
+[1.519223] (p3dx_navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.521315] (p3dx_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.522685] (p3dx_navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.530293] (p3dx_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.532974] (p3dx_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.540709] (p3dx_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.543182] (p3dx_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/tom/humble_ws/p3dx_ws/build/p3dx_navigation\n'}
+[1.551397] (p3dx_navigation) CommandEnded: {'returncode': 0}
+[1.552368] (p3dx_navigation) JobProgress: {'identifier': 'p3dx_navigation', 'progress': 'build'}
+[1.554449] (p3dx_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation', '--', '-j12', '-l12'], 'cwd': '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation', 'env': OrderedDict([('HOSTNAME', 'simon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom'), ('OLDPWD', '/home/tom/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.602826] (-) TimerEvent: {}
+[1.616616] (p3dx_navigation) CommandEnded: {'returncode': 0}
+[1.655277] (p3dx_navigation) JobProgress: {'identifier': 'p3dx_navigation', 'progress': 'install'}
+[1.669820] (p3dx_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation'], 'cwd': '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation', 'env': OrderedDict([('HOSTNAME', 'simon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom'), ('OLDPWD', '/home/tom/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/tom/humble_ws/p3dx_ws/build/p3dx_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.680832] (p3dx_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.681163] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/lib/p3dx_navigation\n'}
+[1.681413] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch\n'}
+[1.681554] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/start.matcher.launch.py\n'}
+[1.689863] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/localization_launch.py\n'}
+[1.690625] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/p3dx_description_ros2.launch copy.py\n'}
+[1.691146] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/p3dx_description_ros2.launch.py\n'}
+[1.691511] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/teleop_keyboard_launch.py\n'}
+[1.691825] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/twist_mux_launch.py\n'}
+[1.692177] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/joystick_launch.py\n'}
+[1.692554] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/online_async_launch.py\n'}
+[1.692862] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/launch/navigation_launch.py\n'}
+[1.693217] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config\n'}
+[1.693478] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/twist_mux.yaml\n'}
+[1.693785] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/nav2_params.yaml\n'}
+[1.694146] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/mapper_params_online_async.yaml\n'}
+[1.694431] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/nav2_params_forCollisionMonitor.yaml\n'}
+[1.694772] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/ekf.yaml\n'}
+[1.695089] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/collision_monitor_params.yaml\n'}
+[1.695384] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/params.yaml\n'}
+[1.695680] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/config/joystick.yaml\n'}
+[1.696022] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz\n'}
+[1.696193] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz/rviz2_launch_config.rviz\n'}
+[1.696504] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/rviz/nav2_default_view.rviz\n'}
+[1.697172] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/package_run_dependencies/p3dx_navigation\n'}
+[1.697525] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/parent_prefix_path/p3dx_navigation\n'}
+[1.697861] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/ament_prefix_path.sh\n'}
+[1.698158] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/ament_prefix_path.dsv\n'}
+[1.698410] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/path.sh\n'}
+[1.698675] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/environment/path.dsv\n'}
+[1.698931] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.bash\n'}
+[1.699172] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.sh\n'}
+[1.699421] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.zsh\n'}
+[1.699659] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/local_setup.dsv\n'}
+[1.699908] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/package.dsv\n'}
+[1.700211] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/ament_index/resource_index/packages/p3dx_navigation\n'}
+[1.700518] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/cmake/p3dx_navigationConfig.cmake\n'}
+[1.700746] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/cmake/p3dx_navigationConfig-version.cmake\n'}
+[1.700998] (p3dx_navigation) StdoutLine: {'line': b'-- Installing: /home/tom/humble_ws/p3dx_ws/install/p3dx_navigation/share/p3dx_navigation/package.xml\n'}
+[1.702898] (-) TimerEvent: {}
+[1.704663] (p3dx_navigation) CommandEnded: {'returncode': 0}
+[1.771069] (p3dx_navigation) JobEnded: {'identifier': 'p3dx_navigation', 'rc': 0}
+[1.771867] (-) EventReactorShutdown: {}
