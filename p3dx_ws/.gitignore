@@ -1,0 +1,8 @@
+# Ignore build, install, and log directories
+build/
+install/
+log/
+
+# Ignore other unwanted files or directories as needed
+*.log  # Ignores all .log files
+*.tmp  # Ignores all .tmp files
