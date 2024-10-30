@@ -6,8 +6,6 @@ Install Ubuntu 22.04 (or 24.04) && Verify the ubuntu version
 lsb_release -a
 ```
 
-When I worked in windows 11, I have found some issue with GUI's in Docker-desktop(RViz and Qt) and in WSL(developed GUI using Qt). I didn't tried in Bookworm image
-
 Note that this repo have different branches. For any branch needs docker installation. 
 
 **1. main** -Assume you have ROS2 installed Ubuntu machine
@@ -136,5 +134,17 @@ To retsart ros2 daemon
 ```sh
 ros2 dameon stop && ros2 dameon start
 ```
+
+## Application on Windows 11
+
+Eventhough it is not recommended, it is possible. But I did not tried the hardware compatability.
+**1 Install Docker Desktop**
+
+**2 Install WSL**
+```sh
+wsl --install -d Ubuntu-22.04
+```
+for bash terminal from thr command prompt execute same above command.
+Follow the instructions for Full_Container_amd64/main branch including ROS2 installtion, but avoid docker installation.
 
 
