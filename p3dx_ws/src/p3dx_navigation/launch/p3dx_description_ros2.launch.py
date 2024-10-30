@@ -92,12 +92,11 @@ def generate_launch_description():
         DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
                                             description='Absolute path to rviz config file'),
                                                                                 
-        # arg_sim_time,
-        # arg_tf_prefix,
-        # get_prefix_fn,
-        # state_publisher,
+        arg_sim_time,
+        arg_tf_prefix,
+        get_prefix_fn,
+        state_publisher,
         robot_localization_node,
         odometry_node,
-        rviz_node,
-        #joy_node
+        rviz_node
     ])
